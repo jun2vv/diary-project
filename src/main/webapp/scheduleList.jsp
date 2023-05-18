@@ -127,7 +127,7 @@
 		<a href="./scheduleList.jsp">일정리스트</a>
 	</div>
 	
-	<center><h1><%=targetYear%>년 <%=targetMonth+1%>월</h1></center>
+	<h1 style=" text-align: center;"><%=targetYear%>년 <%=targetMonth+1%>월</h1>
 	<div>
 		<a class="btn btn-outline-dark" href ="./scheduleList.jsp?targetYear=<%=targetYear%>&targetMonth=<%=targetMonth-1%>">이전달</a>
 		<a class="btn btn-outline-dark" href ="./scheduleList.jsp?targetYear=<%=targetYear%>&targetMonth=<%=targetMonth+1%>">다음달</a>

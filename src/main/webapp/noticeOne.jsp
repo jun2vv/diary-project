@@ -53,14 +53,13 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <body>
 	<div class="container">
-	<center>
+	
 	<h1>공지</h1>
-	<div><!-- 메인메뉴 -->
+	<div style=" text-align: center;"><!-- 메인메뉴 -->
 		<a href="./home.jsp">홈으로</a>
 		<a href="./noticeList.jsp">공지리스트</a>
 		<a href="./scheduleList.jsp">일정리스트</a>
 	</div>
-	</center>
 	<%	
 		for(Notice n : noticeList) {
 	%>
@@ -93,9 +92,9 @@
 	<% 		
 		}
 	%>
-	<div>
-		<center><a class="btn btn-outline-success" href="./updateNoticeForm.jsp?noticeNo=<%=noticeNo %>">수정</a>
-		<a class="btn btn-outline-warning" href="./deleteNoticeForm.jsp?noticeNo=<%=noticeNo %>">삭제</a></center>
+	<div style=" text-align: center;">
+		<a class="btn btn-outline-success" href="./updateNoticeForm.jsp?noticeNo=<%=noticeNo %>">수정</a>
+		<a class="btn btn-outline-warning" href="./deleteNoticeForm.jsp?noticeNo=<%=noticeNo %>">삭제</a>
 	</div>
 	</div>
 </body>
