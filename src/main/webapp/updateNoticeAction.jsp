@@ -2,7 +2,7 @@
 <%@ page import="java.sql.*" %>
     
 <%
-
+	request.setCharacterEncoding("utf-8");
 	
 	// 리다이렉션 이 웹페이지를
 	request.setCharacterEncoding("utf-8"); 
